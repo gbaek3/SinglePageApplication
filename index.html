@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <nav>
+    <ul>
+      <li id="view"><a>View</a></li>
+      <li id="add"><a>Add</a></li>
+      <li id="verify"><a>Verify</a></li>
+      <li id="update"><a>Update</a></li>
+      <li id="delete"><a>Delete</a></li>
+    </ul>
+  </nav>
+
+  <main>
+
+    <section id="addpage">
+      <input id="nameinput">
+      <input id="officeinput">
+      <input id="phoneinput">
+      <button id="addNew">Add</button>
+      <br><br><br>
+    </section>
+
+    <section id="updatepage">
+      <input id="nameupdate">
+      <input id="officeupdate">
+      <input id="phoneupdate">
+      <button id="updateEmp">Update</button>
+      <br><br><br>
+    </section>
+
+    <section id="deletepage">
+      <input id="namedelete">
+      <button id="deleteEmp">Delete</button>
+      <br><br><br>
+    </section>
+
+    <section id="viewpage"></section>
+
+    <section id="verifypage">
+      <input id="verifyinput">
+      <button id="search">Search</button><br>
+      <div id="searchresult"></div>
+    </section>
+  </main>
+
+  <script src="dom.js"></script>
+  <script src="employeeList.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
