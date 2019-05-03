@@ -70,9 +70,9 @@ const verifyEmployee = function () {
         nameList.push(employeeList[i].name);
     }
     if (nameList.includes(verifyVal)) {
-        $('#searchresult').text("yes");
+        $('#searchresult').text("Employee found");
     } else {
-        $('#searchresult').text("no");
+        $('#searchresult').text("Employee not found");
     }
     $('#verifyinput').val('');
 }
