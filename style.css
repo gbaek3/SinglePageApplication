@@ -27,7 +27,6 @@ li:hover {
 }
 
 
-
 .currentLink {
     color: yellow;
 }
@@ -42,6 +41,6 @@ main {
     margin-left: 200px;
 }
 
-.homeIcon{
+.home{
     color:white;
 }
