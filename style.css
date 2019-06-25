@@ -44,3 +44,17 @@ main {
 .home{
     color:white;
 }
+
+#bgPic{
+    height: auto; 
+    width: auto; 
+    max-width: 325px; 
+    max-height: 300px;
+}
+
+h3{
+    margin-bottom:5px;
+    color:black;
+    font-weight:bold;
+    text-decoration: underline;
+}

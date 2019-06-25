@@ -13,12 +13,14 @@ let activeLink = null;
 
 const showView = function () {
     $('section').hide();
+    $('#bgPic').hide();
     $('#viewpage').show();
     changeColor("#view");
 }
 
 const showAdd = function () {
     $('section').hide();
+    $('#bgPic').hide();
     $('#addpage').show();
     $('#viewpage').show();
     changeColor("#add");
@@ -26,6 +28,7 @@ const showAdd = function () {
 
 const showVerify = function () {
     $('section').hide();
+    $('#bgPic').hide();
     $('#searchresult').empty();
     $('#verifypage').show();
     changeColor("#verify");
@@ -33,6 +36,7 @@ const showVerify = function () {
 
 const showUpdate = function () {
     $('section').hide();
+    $('#bgPic').hide();
     $('#updatepage').show();
     $('#viewpage').show();
     changeColor("#update");
@@ -40,6 +44,7 @@ const showUpdate = function () {
 
 const showDelete = function () {
     $('section').hide();
+    $('#bgPic').hide();
     $('#deletepage').show();
     $('#viewpage').show();
     changeColor("#delete");
